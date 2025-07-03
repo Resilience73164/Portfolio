@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+nav, .nav{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.nav{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.logo{
+    font-size: 2rem;
+}
