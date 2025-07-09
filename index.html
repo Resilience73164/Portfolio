@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,27 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
 </head>
+
 <body>
     <header>
         <nav id="desktop-nav">
-                <div class="logo">Jeff Yu</div>
-                <ul class="nav">
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#experience">Experience</a></li>
-                    <li class="nav-item"><a href="#projects">Projects</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-            </div>
+            <div class="logo">Jeff Yu</div>
+            <ul class="nav">
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#experience">Experience</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                </div>
         </nav>
         <nav id="hamburger-nav">
             <div class="logo">Jeff Yu</div>
             <div class="hambuger-menu">
-                <div class="hamburger-icon">
+                <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
                     <span></span>
                     <span></span>
-                    <div class="menu"></div>
+                </div>
+                <div class="menu">
                     <li class="nav-item"><a href="#about">About</a></li>
                     <li class="nav-item"><a href="#experience">Experience</a></li>
                     <li class="nav-item"><a href="#projects">Projects</a></li>
@@ -36,4 +39,5 @@
     </header>
     <script src="js/script.js"></script>
 </body>
+
 </html>
