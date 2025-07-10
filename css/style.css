@@ -32,9 +32,9 @@ a:hover{
     padding: 8px;
 }
 
-#hamburger-nav{
+/* #hamburger-nav{
     display: none;
-}
+} */
 
 .hamburger-icon{
     display: flex;
@@ -53,11 +53,7 @@ a:hover{
 }
 
 .menu{
-    top: 100%;
-    position: absolute;
-    right: 0;
-    overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    display: none;
 }
 
 .menu li{
@@ -75,6 +71,11 @@ a:hover{
 }
 
 .menu.active{
+    display: flex;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
     max-height: 300px;
 }
 
